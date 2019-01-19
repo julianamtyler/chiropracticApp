@@ -11,12 +11,15 @@
         
         /* each review box */
         .allReviewsBox {
+            flex-wrap: nowrap;
             margin-right: 40px;
-            margin-top: 60px;
+            margin-top: 10px;
             float: right;
             width:50%;
+            height: 40%;
             padding:10px;
             background-color:#406B89;
+
         }
         
         
