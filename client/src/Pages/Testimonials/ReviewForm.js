@@ -1,12 +1,14 @@
 import React from 'react';
 
 const ReviewForm = (props) => (
+    <div className="reviewForm">
     <form>
-        <input name = "name" value ={props.nameVal} onChange={props.handleChange} placeholder ="Name"/>
-        <input name = "email" value ={props.emailVal} onChange={props.handleChange} placeholder ="Email"/>
-        <input name = "comment" value ={props.commentVal} onChange={props.handleChange} placeholder="Write your review here!"/>
-        <button onClick ={props.submitReview}>Submit</button>
+        <input name="name" value={props.nameVal} placeholder="Your Name here" onChange={props.handleChange} className="nameInput" /><br/>
+        <input name="email" value={props.emailVal}  placeholder="Your Email here" onChange={props.handleChange} className="emailInput" /><br/>
+        <input name="comment" value={props.commentVal} placeholder="Leave your review here" onChange={props.handleChange} className="commentInput" /><br/>
+        <button onClick={props.submitReview}>Submit</button>
     </form>
+    </div>
 )
 
 export default ReviewForm;

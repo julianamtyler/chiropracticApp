@@ -2,7 +2,8 @@ import React from 'react';
 import axios from 'axios';
 import ReviewForm from './ReviewForm';
 import DisplayAll from './DisplayAll';
-
+import './testimonialPage.css';
+import './ReviewFormStyle.css';
 
 class Testimonials extends React.Component {
     state = {
@@ -12,21 +13,8 @@ class Testimonials extends React.Component {
             email: '',
             comment: ''
         }
-        // name: '',
-        // email: '',
-        // comment: ''
     }
-    // addName = (event) => {
-    //     this.setState({ name: event.target.name })
-    // }
-
-    // addEmail = (event) => {
-    //     this.setState({ email: event.target.email })
-    // }
-    // addComment = (event) => {
-    //     this.setState({ comment: event.target.comment })
-    // }
-
+   
     handleChange = (event) => {
         const inputField = event.target.name;
         console.log(inputField);
@@ -62,7 +50,7 @@ class Testimonials extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className="pageFive">
                 <ReviewForm
                     nameVal={this.state.newReview.name}
                     emailVal={this.state.newReview.email}

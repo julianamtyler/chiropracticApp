@@ -1,0 +1,33 @@
+@media only screen and (min-width: 600px) {
+.navBar {
+    background-color: #0A4672;
+    height: 120px;
+    width: auto;   
+
+}
+.headerDiv {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+}
+.menu {
+    margin-left: 230px;
+}
+.navButton {
+    margin: 5px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: black;
+    padding: 10px 50px;
+}
+
+.linkStyle {
+    color: white;
+    text-decoration: none;
+}
+}

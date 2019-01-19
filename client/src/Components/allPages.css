@@ -1,0 +1,11 @@
+
+
+
+@media only screen and (min-width: 600px) {
+body {
+    background-image: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 4300px 1100px;
+    font-family: 'Cinzel', serif;
+}
+}

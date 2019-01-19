@@ -1,8 +1,9 @@
 import React from 'react'; 
 
+
+
 const Welcome = () => (
-<div>
-    
+<div className="welcome">
     Welcome to Chiropractic and Wellness 
 </div>
 )

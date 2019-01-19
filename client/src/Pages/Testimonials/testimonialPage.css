@@ -1,0 +1,23 @@
+
+@media only screen and (min-width: 600px) {
+
+
+    .reviewBox {
+        background-color:#B8DCE5;
+        margin: 15px;
+        padding: 20px;
+        width: 45%;
+        }
+        
+        /* each review box */
+        .allReviewsBox {
+            margin-right: 40px;
+            margin-top: 60px;
+            float: right;
+            width:50%;
+            padding:10px;
+            background-color:#406B89;
+        }
+        
+        
+}
