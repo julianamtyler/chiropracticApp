@@ -1,5 +1,5 @@
 import React from 'react'; 
-
+import './welcomeStyles.css';
 
 
 const Welcome = () => (

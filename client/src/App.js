@@ -7,8 +7,7 @@ import Services from './Pages/Services/Services';
 import Testimonials from './Pages/Testimonials/Testimonials';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import Navigation from './Components/Navigation';
-import './Components/navigation.css';
-import './Pages/Welcome/welcomepage.css';
+
 
 const App = () => (
 <BrowserRouter>

@@ -1,26 +1,36 @@
 
 @media only screen and (min-width: 600px) {
 
+    /* .allReviewsBox {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .allReviewsBox >* {
+        flex: 240px;
+    } */
+  
+    .allReviewsBox {
+        padding: 5px;
+        width: 600px;
+        min-height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:rgba(132, 195,207);
+        text-align: center;
+        margin-top: -350px;
+
+    }
 
     .reviewBox {
-        background-color:#B8DCE5;
+        float: left;
+        background-color:#0A4672;
+        color: white;
         margin: 15px;
-        padding: 20px;
-        width: 45%;
+        padding: 5px;
+        width: 250px;
         }
-        
-        /* each review box */
-        .allReviewsBox {
-            flex-wrap: nowrap;
-            margin-right: 40px;
-            margin-top: 10px;
-            float: right;
-            width:50%;
-            height: 40%;
-            padding:10px;
-            background-color:#406B89;
 
-        }
         
         
 }

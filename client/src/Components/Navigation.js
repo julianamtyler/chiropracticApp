@@ -1,5 +1,5 @@
 import React from 'react';
-import './navigation.css';
+import './navigationStyle.css';
 
 const Navigation = (props) => (
     <div  className="navBar">

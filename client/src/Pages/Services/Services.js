@@ -2,7 +2,9 @@ import React from 'react';
 
 const Services = () => (
 <div>
-    SERVICES HERE
+    <div>
+        
+    </div>
 </div>
 )
 

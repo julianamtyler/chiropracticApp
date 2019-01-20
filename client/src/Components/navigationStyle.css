@@ -1,8 +1,9 @@
 @media only screen and (min-width: 600px) {
 .navBar {
-    background-color: #0A4672;
+    background-color: rgba(10,70,114,0.7);
     height: 120px;
-    width: auto;   
+    /* width: auto;    */
+    align-items: center;
 
 }
 .headerDiv {
@@ -13,15 +14,12 @@
     padding: 5px;
 }
 .menu {
-    
-
-    margin-left: 100px;
+    margin-left: 350px;
 }
 .navButton {
     margin: 5px;
     float: left;
     color: #f2f2f2;
-    text-align: center;
     text-decoration: none;
     font-size: 20px;
     background-color: black;

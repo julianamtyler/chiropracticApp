@@ -1,0 +1,27 @@
+
+@media only screen and (min-width: 600px) {
+
+    .aboutUs {
+        margin-top: 20px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+.about {
+    background-color:rgba(132,195,207,0.45);
+    width: 600px;
+    margin-left: 30px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.two {
+    margin-top:-427px;
+    float: right;
+    margin-right: 40px;
+   
+}
+.title {
+    padding: 10px;
+    font-size: 20px;
+    color: #0A4672;
+}
+}

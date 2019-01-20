@@ -5,6 +5,7 @@
 body {
     background-image: url('./assets/background.jpg');
     background-repeat: no-repeat;
-    background-size: 1600px 800px;
+    background-size: 2000px 800px;
+    font-family: 'Roboto', sans-serif;
 }
 }

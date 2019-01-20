@@ -1,29 +1,34 @@
 @media only screen and (min-width: 600px) {
-.reviewForm {
-    margin-left: 20px;
-    padding: 10px;
-    width: 30%;
-    background-color: #E6F2F8;
-    float: left;
-}
+    .reviewForm {
+        margin-top: 30px;
+        margin-left: 20px;
+        padding: 10px;
+        width: 400px;
+        background-color: #E6F2F8;
+        
+    }
 
-input {
-    width: 200px;
-    margin: 10px;
-}
+    input {
+        padding: 10px;
+        height: 20px;
+        width: 300px;
+        margin: 10px;
+    }
 
-.nameInput,.emailInput, .commentInput {
-    margin-left: 20px;
-}
+    .nameInput,.emailInput, .commentInput {
+        margin-left: 20px;
+        
+    }
 
-.commentInput {
-    height: 200px;
+    .commentInput {
+        height: 200px;
+        width: 320px;
 
-}
+    }
 
-button {
-    border: none;
-    float : right;
+    button {
+        border: none;
 
-}
+
+    }
 }

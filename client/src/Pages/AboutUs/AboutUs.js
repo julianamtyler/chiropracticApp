@@ -1,9 +1,12 @@
 import React from 'react';
 import Doctor from './Doctor';
+import AboutOffice from './AboutOffice';
+import './aboutUsStyle.css';
 
 const AboutUs = () => (
-    <div>
-       <Doctor/> 
+    <div className="aboutUs">
+       <Doctor/>
+       <AboutOffice/> 
     </div>
 )
 
