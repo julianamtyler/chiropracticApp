@@ -2,7 +2,7 @@
 .navBar {
     background-color: rgba(10,70,114,0.7);
     height: 120px;
-    /* width: auto;    */
+    width: auto;   
     align-items: center;
 
 }
@@ -14,7 +14,7 @@
     padding: 5px;
 }
 .menu {
-    margin-left: 350px;
+    margin-left: 150px;
 }
 .navButton {
     margin: 5px;
