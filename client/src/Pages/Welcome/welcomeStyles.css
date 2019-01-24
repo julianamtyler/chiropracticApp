@@ -1,7 +1,17 @@
-.welcome {
-    color: #0A4672;
-    font-size: 80px;
-    text-align: center;
-    margin-top: 40px;
-    
+.welcomePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .welcome {
+        margin-top: 30px;
+        color: #0A4672;
+        font-size: 50px;
+    }
+    img {
+        color: black;
+    }
+
 }

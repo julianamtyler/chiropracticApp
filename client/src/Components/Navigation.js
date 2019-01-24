@@ -6,7 +6,7 @@ const Navigation = (props) => (
         <div className="headerDiv">
         Call today: (678) 789 - 0070
         </div>
-        <div>
+        <div className="menu">
             {props.children}
         </div>
     </div>

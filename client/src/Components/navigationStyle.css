@@ -1,11 +1,9 @@
 @media only screen and (min-width: 600px) {
 .navBar {
     background-color: rgba(10,70,114,0.7);
-    height: 120px;
-    width: auto;   
-    align-items: center;
-
+    height: 110px;
 }
+
 .headerDiv {
     color: white;
     font-size: 30px;
@@ -13,17 +11,23 @@
     height: 30px;
     padding: 5px;
 }
+
 .menu {
-    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .navButton {
+    border: none;
+    justify-items: center;
     margin: 5px;
-    float: left;
     color: #f2f2f2;
     text-decoration: none;
+    font-family: 'Questrial', sans-serif;
     font-size: 20px;
     background-color: black;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 
 .linkStyle {

@@ -3,8 +3,11 @@ import './welcomeStyles.css';
 
 
 const Welcome = () => (
-<div className="welcome">
-    Welcome to Chiropractic and Wellness 
+<div className="welcomePage">
+    <div className="welcome"> 
+        Welcome to
+    </div>
+
 </div>
 )
 

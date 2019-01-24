@@ -13,14 +13,12 @@ const App = () => (
 <BrowserRouter>
     <div>
       <Navigation>
-        <div className="menu">
-        <div className="navButton"><Link className="linkStyle" to={`/`}>Welcome</Link></div>
-        <div className="navButton"><Link className="linkStyle" to={`/aboutus`}>About Us</Link></div>
-        <div className="navButton"><Link className="linkStyle" to={`/blogs`}>Blogs</Link></div>
-        <div className="navButton"><Link className="linkStyle" to={`/services`}>Services</Link></div>
-        <div className="navButton"><Link className="linkStyle" to={`/testimonials`}>Testimonials</Link></div>
-        <div className="navButton"><Link className="linkStyle" to={`/contactus`}>Contact Us</Link></div>
-        </div>
+        <button className="navButton"><Link className="linkStyle" to={`/`}>Welcome</Link></button>
+        <button className="navButton"><Link className="linkStyle" to={`/aboutus`}>About Us</Link></button>
+        <button className="navButton"><Link className="linkStyle" to={`/blogs`}>Blogs</Link></button>
+        <button className="navButton"><Link className="linkStyle" to={`/services`}>Services</Link></button>
+        <button className="navButton"><Link className="linkStyle" to={`/testimonials`}>Testimonials</Link></button>
+        <button className="navButton"><Link className="linkStyle" to={`/contactus`}>Contact Us</Link></button>
       </Navigation>
       <Route exact path='/' component={Welcome} />
       <Route path='/aboutus' component={AboutUs} />

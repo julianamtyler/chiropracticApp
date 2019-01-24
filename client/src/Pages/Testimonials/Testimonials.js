@@ -50,14 +50,13 @@ class Testimonials extends React.Component {
     }
     render() {
         return (
-            <div className="pageFive">
+            <div className="testimonialPage">
                 <ReviewForm
                     nameVal={this.state.newReview.name}
                     emailVal={this.state.newReview.email}
                     commentVal={this.state.newReview.comment}
                     submitReview={this.submitReview}
                     handleChange={this.handleChange} 
-                  
                     />
                 <DisplayAll
                     allReviews={this.state.allReviews}

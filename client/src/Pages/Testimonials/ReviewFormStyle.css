@@ -7,7 +7,6 @@
         background-color: #E6F2F8;
         
     }
-
     input {
         padding: 10px;
         height: 20px;
@@ -15,20 +14,27 @@
         margin: 10px;
     }
 
-    .nameInput,.emailInput, .commentInput {
-        margin-left: 20px;
+    .nameInput,.emailInput,.commentInput {
+        margin-left: 30px;
         
     }
 
     .commentInput {
+        resize: none;
         height: 200px;
         width: 320px;
 
     }
 
-    button {
+    .formButton {
         border: none;
-
+        color: white;
+        font-size:20px;
+        background-color: #0A4672;
+        width:80px;
+        height: 30px;
+        border-radius:20%;
+        margin-left: 155px;
 
     }
 }

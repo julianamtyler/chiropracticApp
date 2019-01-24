@@ -1,5 +1,5 @@
 import React from 'react';
-import './aboutUsStyle.css';
+import './aboutUsStyles.css';
 
 const AboutOffice = () =>(
     <div>

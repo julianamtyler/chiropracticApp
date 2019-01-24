@@ -1,10 +1,10 @@
 import React from 'react';
 import Doctor from './Doctor';
 import AboutOffice from './AboutOffice';
-import './aboutUsStyle.css';
+import './aboutUsStyles.css';
 
 const AboutUs = () => (
-    <div className="aboutUs">
+    <div className="aboutUsPage">
        <Doctor/>
        <AboutOffice/> 
     </div>

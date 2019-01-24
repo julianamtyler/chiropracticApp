@@ -1,8 +1,9 @@
 import React from 'react';
 import ContactForm from './ContactForm';
+import './contactStyles.css';
 
 const ContactUs = () => (
-    <div>
+    <div className="contactPage">
         <ContactForm/>
     </div>
 
