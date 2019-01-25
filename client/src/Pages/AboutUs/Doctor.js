@@ -14,6 +14,7 @@ const Doctor = () => (
         Tyler obtained a certification to perform electrodiagnostic studies (EMG and NCV). Dr. Tyler continues to
         take classes and continuing education in functional and clinical neurology, as well as functional nutrition.</p>
     </div>
+    <img className="docPic" src={"drTyler.jpg"} alt="Dr. Tyler"/>
     </div>
 
 

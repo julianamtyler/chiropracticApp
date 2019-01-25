@@ -37,7 +37,6 @@ class Testimonials extends React.Component {
     allReviews = () => {
         axios.get('/api/reviews')
             .then((results) => {
-                console.log("line 32" + results.data)
                 this.setState({ reviews: results.data })
             })
     }

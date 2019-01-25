@@ -13,7 +13,7 @@ state = {
 render(){
     return(
         <div>
-            <img src={"spine.jpg"} alt='chiro'/>
+            {/* <img src={"./assets/spine.jpg"} alt='chiro'/> */}
         </div>
     )
 }
