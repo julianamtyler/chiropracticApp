@@ -1,10 +1,12 @@
 @media only screen and (min-width: 600px) {
     .reviewForm {
+        border: 1px solid blue;
         margin-top: 30px;
-        margin-left: 20px;
+        margin-left: 10px;
         padding: 10px;
         width: 400px;
         background-color: #E6F2F8;
+        box-shadow: 10px 10px 5px gray;
         
     }
     input {
@@ -33,8 +35,5 @@
         background-color: #0A4672;
         width:80px;
         height: 30px;
-        border-radius:20%;
-        margin-left: 155px;
-
     }
 }

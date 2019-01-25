@@ -1,29 +1,26 @@
+.aboutUsPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media only screen and (min-width: 600px) {
-    .aboutUsPage {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .aboutUs {
-            margin-top: 20px;
-            margin-left: 250px;
-            margin-right: 250px;
-        }
-    .about {
-        background-color:rgba(132,195,207,0.45);
+    .doc,.about {
         width: 600px;
-        margin-left: 30px;
         padding: 20px;
-        margin-top: 10px;
-    }
-    .two {
-        
-        margin-right: 40px;
+        margin:10px;
+        background-color:rgba(132,195,207,0.35);
     
     }
+    .details {
+        padding: 5px;
+       
+    }
+    .doc{
+        margin-bottom: 100px;
+    }
     .title {
-        padding: 10px;
+        padding: 5px;
         font-size: 20px;
         color: #0A4672;
     }

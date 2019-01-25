@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Doctor = () => (
-    <div className="about">
+    <div className="doc">
         <div className="title">Dr. Diana Tyler, D.C.</div>
     <div>
         <p>Dr. Tyler graduated from Georgia Southern University majoring in Exercise Science in 2016. She then

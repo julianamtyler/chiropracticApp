@@ -1,6 +1,5 @@
 
 
-
 @media only screen and (min-width: 600px) {
 body {
     background-image: url('./assets/background.jpg');
@@ -9,4 +8,4 @@ body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Questrial', sans-serif;
 }
-}
+} 

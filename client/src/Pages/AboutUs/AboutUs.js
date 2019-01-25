@@ -5,8 +5,9 @@ import './aboutUsStyles.css';
 
 const AboutUs = () => (
     <div className="aboutUsPage">
-       <Doctor/>
+        <Doctor/>
        <AboutOffice/> 
+    
     </div>
 )
 

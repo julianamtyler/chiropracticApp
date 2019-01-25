@@ -2,8 +2,8 @@ import React from 'react';
 import './aboutUsStyles.css';
 
 const AboutOffice = () =>(
-    <div>
-<div className="about">
+    <div className="about">
+<div className="details">
     <div className="title">What is Chiropractic?</div>
     <p>
     Chiropractors use hands-on, or instrument assisted spinal manipulation to properly align the spine.
@@ -12,7 +12,7 @@ const AboutOffice = () =>(
     methods for low back pain, neck pain, and headaches.
     </p>
    </div>
-   <div className="about two">
+   <div className="details">
     <div className="title">What is Chiropractic Neurology?</div>
     <p>
     Chiropractic neurologists are chiropractors who have continued with advanced post graduate studies to

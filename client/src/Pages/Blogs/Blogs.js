@@ -1,10 +1,23 @@
 import React from 'react'; 
-import './blogStyles.css';
+// import './blogStyles.css';
 
-const Blogs = () => (
-<div>
-    
-</div>
-)
+class Blogs extends React.Component{
+state = {
+    blogPosts: [],
+    NewBlog: {
+        title: '',
+        article: ''
+    }
+}
 
+render(){
+    return(
+        <div>
+            <img src={"spine.jpg"} alt='chiro'/>
+        </div>
+    )
+}
+
+
+}
 export default Blogs; 
