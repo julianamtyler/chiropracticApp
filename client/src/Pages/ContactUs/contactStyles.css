@@ -1,17 +1,20 @@
 .contactPage {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 @media only screen and (min-width: 600px) {
     .info {
-        margin-top: 400px;
-        margin-left: 550px;
+        margin-top: 50px;
+        margin-left: 50px;
         font-size: 25px;
+        
     }
-    .phoneNum {
-        padding-top: 10px;
+    .lowerBack {
+        width: 900px;
+        height: auto;
+        opacity: .5;
     }
 
 }
