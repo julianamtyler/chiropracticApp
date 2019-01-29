@@ -22,6 +22,7 @@ class Testimonials extends React.Component {
         copyOfReview[inputField] = event.target.value;
         this.setState({ newReview: copyOfReview })
     }
+
     submitReview = (event) => {
         event.preventDefault();
         console.log('clicked')
@@ -29,6 +30,7 @@ class Testimonials extends React.Component {
     )
     .then(results => {
         this.setState({reviews: [...this.state.reviews, results.data]
+
         })
     })
 }
@@ -40,13 +42,12 @@ class Testimonials extends React.Component {
                 this.setState({ reviews: results.data })
             })
     }
+
     componentDidMount() {
         this.allReviews();
     }
-    onClickReview(e){
-        e.preventDefault();
-        console.log(e.target.getAttribute("data-thedbid"))
-    }
+    
+
     render() {
         return (
             <div className="testimonialPage">

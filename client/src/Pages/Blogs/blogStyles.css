@@ -1,0 +1,13 @@
+
+@media only screen and (min-width: 600px) {
+
+    .blog {
+        width:600px;
+        padding:20px;
+    }
+
+    .bTitle {
+        font-size: 30px;
+    }
+}
+
