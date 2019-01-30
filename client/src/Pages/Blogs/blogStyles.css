@@ -3,17 +3,17 @@
     
     .allBlogs {
         display: flex;
+        flex-wrap: wrap;
     }
     .blog {
-    flex-wrap: nowrap;
     box-shadow:  6px 6px rgba(0, 0, 0, 0.5);
     line-height: 1.6;
-    width: 700px;
-    height: 300px;
+    width: 650px;
+    height: 200px;
     display: block;
     overflow: auto;
-    padding: 30px;
-    margin: 20px;
+    padding: 40px;
+    margin: 15px auto;
     background-color:rgba(132,195,207,0.35);
     }
     ::-webkit-scrollbar {
