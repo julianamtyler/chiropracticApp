@@ -12,7 +12,7 @@ class Blog extends React.Component {
     componentDidMount() {
         axios
             .get(
-                "http://public-api.wordpress.com/rest/v1/sites/chiro822980757.wordpress.com/posts"
+                "https://public-api.wordpress.com/rest/v1/sites/chiro822980757.wordpress.com/posts"
             )
             .then(res => {
                 let allPosts = res.data.posts;        
