@@ -24,14 +24,14 @@ module.exports = function (app) {
       });
   });
 
-  app.delete('/api/reviews', function (req, res) {
-    Reviews.findOneAndDelete(req.params.id)
-      .then(function (data) {
-        res.json(data);
-      })
-      .catch(function (err) {
-        res.json(err);
-      });
-  });
+  // app.delete('/api/reviews', function (req, res) {
+  //   Reviews.findOneAndDelete(req.params.id)
+  //     .then(function (data) {
+  //       res.json(data);
+  //     })
+  //     .catch(function (err) {
+  //       res.json(err);
+  //     });
+  // });
 
 }

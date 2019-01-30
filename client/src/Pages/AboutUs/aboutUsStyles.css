@@ -6,22 +6,25 @@
 
 @media only screen and (min-width: 600px) {
     .doc,.about {
-        width: 600px;
+        box-shadow:  6px 6px rgba(0, 0, 0, 0.5);
+        line-height: 1.6;
+        width: 700px;
+        height: 100%;
         padding: 20px;
-        margin:10px;
+        margin: 20px;
         background-color:rgba(132,195,207,0.35);
     
     }
     .details {
-        padding: 5px;
+        padding: 15px;
        
     }
-    .doc{
+    /* .doc{
         margin-bottom: 100px;
-    }
+    } */
     .title {
         padding: 5px;
-        font-size: 20px;
+        font-size: 30px;
         color: #0A4672;
     }
 }

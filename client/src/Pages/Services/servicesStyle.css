@@ -1,17 +1,15 @@
-.servicePage {
-    display: flex;
-    /* align-items: center;
-    justify-content: center; */
-}
+
 @media only screen and (min-width: 600px) {
     .intro {
+        position: relative;
         font-size: 15px;
         width: 350px;
     }
     .pageTitle {
         font-size: 30px;
     }
-    /* .servicesOffered {
-        border: 1px solid #406B89;
-    } */
+    .items {
+        margin: 20px;
+}
+  
 }

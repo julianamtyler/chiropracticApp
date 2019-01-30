@@ -1,10 +1,12 @@
 import React from 'react';
 import './blogStyles.css';
+import Parser from 'html-react-parser';
 
 const EachBlog = (props) => (
 <div className='blog'>
     <div className=' bTitle'>{props.post.title}</div> 
-    <div className='blogcontent'>{props.post.excerpt}</div>
+    <div className='bAuthor'>{props.post.author.name}</div>
+    <div className='bContent'>{Parser(props.post.content)}</div>
 </div>
 
 )

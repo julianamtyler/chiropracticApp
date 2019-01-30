@@ -3,7 +3,7 @@ import React from 'react';
 const Doctor = () => (
     <div className="doc">
         <div className="title">Dr. Diana Tyler, D.C.</div>
-    <div>
+    <div className=''>
         <p>Dr. Tyler graduated from Georgia Southern University majoring in Exercise Science in 2016. She then
         went on to graduate from Palmer College of Chiropractic in Florida with her Doctor of Chiropractic.
         </p><br/>
@@ -14,7 +14,7 @@ const Doctor = () => (
         Tyler obtained a certification to perform electrodiagnostic studies (EMG and NCV). Dr. Tyler continues to
         take classes and continuing education in functional and clinical neurology, as well as functional nutrition.</p>
     </div>
-    <img className="docPic" src={"drTyler.jpg"} alt="Dr. Tyler"/>
+    {/* <img className="docPic" src={"drTyler.jpg"} alt="Dr. Tyler"/> */}
     </div>
 
 

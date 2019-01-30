@@ -4,7 +4,7 @@ import './servicesStyle.css';
 
 const Service =() => (
 <div className="servicesOffered">
-    <ol>
+<ol className='items'>
         <li>Chiropractic Adjustment</li>
         <li>Instrument Assisted Soft Tissue</li>
         <li>Heat and Ice</li>
@@ -12,7 +12,7 @@ const Service =() => (
         <li>Electrical Stimulation</li>
         <li>Counseling about diet, and other lifestyle factors</li>
         <li>Provide dietary supplements</li>
-    </ol>
+        </ol>
 </div>
 )
 
