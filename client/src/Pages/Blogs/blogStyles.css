@@ -6,10 +6,10 @@
         flex-wrap: wrap;
     }
     .blog {
-    box-shadow:  6px 6px rgba(0, 0, 0, 0.5);
+    box-shadow:  6px 6px 5px rgba(0, 0, 0, 0.5);
     line-height: 1.6;
-    width: 650px;
-    height: 200px;
+    width: 900px;
+    height: 400px;
     display: block;
     overflow: auto;
     padding: 40px;

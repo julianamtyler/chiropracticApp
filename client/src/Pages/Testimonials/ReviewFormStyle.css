@@ -1,9 +1,10 @@
 @media only screen and (min-width: 600px) {
     .reviewForm {
         border: 1px solid blue;
-        margin-top: 30px;
-        margin-left: 10px;
+        margin-top: 50px;
+        margin-left: 50px;
         padding: 10px;
+        height: 400px;
         width: 400px;
         background-color: #E6F2F8;
         box-shadow: 10px 10px 5px gray;
@@ -17,11 +18,13 @@
     }
 
     .nameInput,.emailInput,.commentInput {
-        margin-left: 30px;
-        
+        margin: 20 auto;
+    
+
     }
 
     .commentInput {
+        margin-left: 7px;
         resize: none;
         height: 200px;
         width: 320px;

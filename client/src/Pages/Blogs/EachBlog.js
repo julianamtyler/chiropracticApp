@@ -5,7 +5,6 @@ import Parser from 'html-react-parser';
 const EachBlog = (props) => (
 <div className='blog'>
     <div className=' bTitle'>{props.post.title}</div> 
-    <div className='bAuthor'>{props.post.author.name}</div>
     <div className='bContent'>{Parser(props.post.content)}</div>
 </div>
 

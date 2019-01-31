@@ -1,12 +1,12 @@
-.aboutUsPage {
-    display: flex;
-    /* /* align-items: center; */
-    justify-content: center; 
-}
 
 @media only screen and (min-width: 600px) {
+    .aboutUsPage {
+        display: flex;
+        justify-content: center; 
+    }
+    
     .doc,.about {
-        box-shadow:  6px 6px rgba(0, 0, 0, 0.5);
+        box-shadow:  6px 6px 5px rgba(0, 0, 0, 0.5);
         line-height: 1.6;
         width: 700px;
         height: 100%;
