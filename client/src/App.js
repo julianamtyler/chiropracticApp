@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
+import { Router, Route, Link, Switch } from 'react-router-dom';
 import Welcome from './Pages/Welcome/Welcome';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Blogs from './Pages/Blogs/Blogs';
@@ -11,7 +11,7 @@ import Footer from './Components/Footer';
 
 
 const App = () => (
-<BrowserRouter>
+<Router>
     <div>
       <Navigation>
         <button className="navButton"><Link className="linkStyle" to={`/`}>Welcome</Link></button>
@@ -31,7 +31,7 @@ const App = () => (
       </Switch>
     <Footer/>
     </div>
-  </BrowserRouter>
+  </Router>
 )
 
 export default App;
