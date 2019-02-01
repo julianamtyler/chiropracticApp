@@ -22,11 +22,11 @@ const App = () => (
         <button className="navButton"><Link className="linkStyle" to={`/contactus`}>Contact Us</Link></button>
       </Navigation>
       <Route exact path='/' component={Welcome} />
-      <Route path='/aboutus' component={AboutUs} />
-      <Route path='/blogs' component={Blogs} />
-      <Route path='/services' component={Services} />
-      <Route path='/testimonials' component={Testimonials} />
-      <Route path='/contactus' component={ContactUs} /> 
+      <Route exact path='/aboutus'  component={AboutUs} />
+      <Route exact path='/blogs' component={Blogs} />
+      <Route exact path='/services' component={Services} />
+      <Route exact path='/testimonials' component={Testimonials} />
+      <Route exact path='/contactus' component={ContactUs} /> 
       
     {/* <Footer/> */}
     </div>
