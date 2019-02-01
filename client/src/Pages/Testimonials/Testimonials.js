@@ -33,6 +33,7 @@ class Testimonials extends React.Component {
 
         })
     })
+    .then ()
 }
 
 
