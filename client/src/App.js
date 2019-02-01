@@ -28,6 +28,7 @@ const App = () => (
       <Route exact path='/services' component={Services} />
       <Route exact path='/testimonials' component={Testimonials} />
       <Route exact path='/contactus' component={ContactUs} /> 
+      <Route component={Welcome} />
       </Switch>
     <Footer/>
     </div>
