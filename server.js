@@ -10,26 +10,8 @@ app.use(express.json());
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
-  // app.use(express.static("client/build"));
-  app.use(express.static(__dirname + '/public'))
+  app.use(express.static("client/build"));
 }
-
-// app.use(express.static(__dirname + '/public'))
-app.get('*', function (request, res){
-  res.sendFile(path.resolve(__dirname, 'public', 'index.html'))
-})
-
-
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(__dirname+'/client/build/index.html'));
-// });
-
-// if (process.env.NODE_ENV === 'production') {
-//   app.use(express.static('client/build'));
-//   app.get('*', (req, res) => {
-//     res.sendFile(path.join('build', 'index.html'));
-//   });
-// }
 
 // Add routes, both API and view
 require('./routes/api-routes')(app);
@@ -43,3 +25,24 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://chiro:chiro1@ds155864.mla
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
+
+
+
+
+//didnt work with there
+// app.use(express.static(__dirname + '/public'))
+// app.get('*', function (request, res){
+//   res.sendFile(path.resolve(__dirname, 'public', 'index.html'))
+// })
+
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname+'/client/build/index.html'));
+// });
+
+// if (process.env.NODE_ENV === 'production') {
+//   app.use(express.static('client/build'));
+//   app.get('*', (req, res) => {
+//     res.sendFile(path.join('build', 'index.html'));
+//   });
+// }
+////////////////////////////////////////////////////////////////////////////
