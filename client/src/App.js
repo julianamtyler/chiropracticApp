@@ -1,5 +1,5 @@
 import React from 'react';
-import { browserHistory, BrowserRouter, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 import Welcome from './Pages/Welcome/Welcome';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Blogs from './Pages/Blogs/Blogs';
@@ -11,7 +11,7 @@ import Footer from './Components/Footer';
 
 
 const App = () => (
-<BrowserRouter history={browserHistory}>
+<BrowserRouter >
     <div>
       <Navigation>
         <button className="navButton"><Link className="linkStyle" to={`/`}>Welcome</Link></button>
