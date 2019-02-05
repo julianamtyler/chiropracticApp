@@ -6,15 +6,17 @@
 
 @media only screen and (min-width: 600px) {
     .info {
-        margin-top: 50px;
+        margin-top: 200px;
         margin-left: 50px;
         font-size: 25px;
         
     }
     .lowerBack {
-        width: 950px;
+        margin-top: 150px;
+        margin-left: 200px;
+        width: 450px;
         height: auto;
-        opacity: .5;
+        opacity: .6;
     }
 
 }

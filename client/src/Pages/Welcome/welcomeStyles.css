@@ -1,15 +1,30 @@
-.welcomePage {
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-}
+
 
 @media only screen and (min-width: 600px) {
-    .welcome {
-        margin-top: 50px;
-        color: #0A4672;
-        font-size: 50px;
+    .welcomePage {
+    display: flex;
+    justify-content: center;
+    /* height: 100%; */
     }
-   
+    
+    .welcome {
+        height:100%;
+        margin-top: 40px;
+        color: #0A4672;
+        font-size: 40px;
+        margin-left: 100px;
+    
+    }
+    .officeName {
+        text-shadow: 3px 4px rgba(10, 70, 114, 0.5);
+        height:100%;
+        padding:5px;
+        margin-top: 90px;
+        margin-left:-210px;
+        color: #0A4672;
+        font-size: 70px;
+    }
+
+    
 
 }

@@ -1,15 +1,13 @@
 import React from 'react'; 
 import './welcomeStyles.css';
-// import logo from './Components/assets/';
 
 
 
 const Welcome = () => (
 <div className="welcomePage">
-{/* <img src ={'chiro_logo.png'} alt='logo'/> */}
-    <div className="welcome"> 
-        Welcome to Chiropractic and Wellness Center!
-    </div>
+    {/* <img src ={'./assets/logo.'} alt='logo'/> */}
+    <div className="welcome"> Welcome to </div>
+    <div className="officeName">Functional Neurology <br/>Chiropractic</div>
 
 </div>
 )

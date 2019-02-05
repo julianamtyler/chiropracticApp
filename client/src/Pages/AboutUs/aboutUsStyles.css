@@ -16,12 +16,15 @@
     
     }
     .details {
+        align-items: center;
         padding: 15px;
        
     }
-    /* .doc{
-        margin-bottom: 100px;
-    } */
+    .docPic{
+        margin-left: 150px;
+        padding: 10px;
+        width: 300px;
+    }
     .title {
         padding: 5px;
         font-size: 30px;

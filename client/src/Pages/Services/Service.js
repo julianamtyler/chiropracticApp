@@ -3,15 +3,16 @@ import './servicesStyle.css';
 
 
 const Service =() => (
-<div className="servicesOffered">
+<div className="services">
+<div className="title">Services provided:</div>
 <ol className='items'>
-        <li>Chiropractic Adjustment</li>
-        <li>Instrument Assisted Soft Tissue</li>
-        <li>Heat and Ice</li>
-        <li>Ultrasound</li>
-        <li>Electrical Stimulation</li>
-        <li>Counseling about diet, and other lifestyle factors</li>
-        <li>Provide dietary supplements</li>
+        <li className="item">Chiropractic Adjustment</li>
+        <li className="item">Instrument Assisted Soft Tissue</li>
+        <li className="item">Heat and Ice</li>
+        <li className="item">Ultrasound</li>
+        <li className="item">Electrical Stimulation</li>
+        <li className="item">Counseling about diet & etc.</li>
+        <li className="item">Provide dietary supplements</li>
         </ol>
 </div>
 )
