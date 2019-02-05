@@ -7,22 +7,26 @@
         margin: 50px auto;
     }
     .intro {
+        line-height: 1.6;
         margin-left: 30px;
         font-size: 20px;
-        padding: 15px;
+        padding: 25px;
         width: 550px;
         background-color:rgba(132, 195,207, .5);
+        box-shadow: 10px 10px 5px gray;
     }
 
     .items {
         font-size: 20px;
         margin-right: 20px;
+    
         
     }
     .services {
-        padding: 15px;
+        padding: 25px;
         background-color:rgba(132, 195,207, .5);
         margin-left: 20px;
+        box-shadow: 10px 10px 5px gray;
     }
 
     .item {

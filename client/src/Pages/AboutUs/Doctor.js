@@ -3,7 +3,7 @@ import React from 'react';
 const Doctor = () => (
     <div className="doc">
         <div className="title">Dr. Diana Tyler, D.C.</div>
-    <div className=''>
+    <div>
         <p>Dr. Tyler graduated from Georgia Southern University majoring in Exercise Science in 2016. She then
         went on to graduate from Palmer College of Chiropractic in Florida with her Doctor of Chiropractic.
         </p><br/>

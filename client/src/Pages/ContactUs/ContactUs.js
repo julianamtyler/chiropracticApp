@@ -4,9 +4,9 @@ import './contactStyles.css';
 
 const ContactUs = () => (
     <div className="contactPage">
-    <div>
+    {/* <div>
         <img className="lowerBack" src= {"./assets/lower-back-pain.jpg"} alt='lowerBack pain '/>
-    </div>
+    </div> */}
     <ContactInfo />
 
     </div>

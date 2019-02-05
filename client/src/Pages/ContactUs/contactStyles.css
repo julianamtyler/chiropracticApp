@@ -1,14 +1,17 @@
-.contactPage {
-    display: flex;
-    /* align-items: center;
-    justify-content: center; */
-}
+
 
 @media only screen and (min-width: 600px) {
+    .contactPage {
+        display: flex;
+    }
     .info {
-        margin-top: 200px;
-        margin-left: 50px;
+
+        background-color:rgba(132,195,207,0.35);
+        box-shadow: 10px 10px 5px gray;
+        padding: 20px;
+        margin: 400px auto;
         font-size: 25px;
+
         
     }
     .lowerBack {

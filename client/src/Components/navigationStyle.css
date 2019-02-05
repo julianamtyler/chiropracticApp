@@ -1,8 +1,32 @@
+body {
+    height: 98vh;
+}
 .menu {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.navBar {
+    background-color: rgba(10,70,114,0.7);
+    height: 90px;
+}
+.navButton {
+    border: none;
+    justify-items: center;
+    background-color: black;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.headerDiv {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    height: 15px;
+    padding: 5px;
+}
+
 
 @media only screen and (min-width: 600px) {
 .navBar {
@@ -20,14 +44,14 @@
 
 
 .navButton {
-    border: none;
-    justify-items: center;
+    /* border: none; */
+    /* justify-items: center; */
     margin: 5px;
-    color: #f2f2f2;
-    text-decoration: none;
+    /* color: #f2f2f2;
+    text-decoration: none; */
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
-    background-color: black;
+    /* background-color: black; */
     padding: 10px 30px;
 }
 
