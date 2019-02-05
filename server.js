@@ -21,6 +21,9 @@ require('./routes/api-routes')(app);
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/chiroApp");
 mongoose.connect(process.env.MONGODB_URI || "mongodb://chiro:chiro1@ds155864.mlab.com:55864/heroku_d3pj1n02", { useNewUrlParser: true });
 
+app.get('*', function(req, res) {
+    res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
 
 // Start the API server
 app.listen(PORT, function() {
