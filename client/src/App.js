@@ -23,11 +23,11 @@ const App = () => (
       </Navigation>
       <Switch>
       <Route exact path='/' component={Welcome} />
-      <Route exact path='/aboutus'  component={AboutUs} />
-      <Route exact path='/blogs' component={Blogs} />
-      <Route exact path='/services' component={Services} />
-      <Route exact path='/testimonials' component={Testimonials} />
-      <Route exact path='/contactus' component={ContactUs} /> 
+      <Route path='/aboutus'  component={AboutUs} />
+      <Route path='/blogs' component={Blogs} />
+      <Route path='/services' component={Services} />
+      <Route path='/testimonials' component={Testimonials} />
+      <Route path='/contactus' component={ContactUs} /> 
       <Route component={Welcome} />
       </Switch>
     {/* <Footer/> */}
