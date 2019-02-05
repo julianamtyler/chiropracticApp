@@ -2,6 +2,7 @@
 
 @media only screen and (min-width: 600px) {
     .contactPage {
+        font-family: 'Roboto', sans-serif;
         display: flex;
     }
     .info {

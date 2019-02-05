@@ -1,9 +1,11 @@
 
 @media only screen and (min-width: 600px) {
         .testimonialPage {
+            font-family: 'Roboto', sans-serif;
         display: flex;
         margin: 50px auto;
         justify-content: center;
+        font-family: 'Roboto', sans-serif;
         }
         
         .allReviewsBox {
