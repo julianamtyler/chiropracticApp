@@ -1,20 +1,13 @@
 
-@media only screen and (min-width: 600px) {
-    
-    .allBlogs {
-        display: flex;
-        flex-wrap: wrap;
-        font-family: 'Roboto', sans-serif;
-    }
-    .blog {
+   .blog {
     box-shadow:  6px 6px 5px rgba(0, 0, 0, 0.5);
     line-height: 1.6;
-    width: 900px;
-    height: 400px;
+    width: 450px;
+    height: 500px;
     display: block;
     overflow: auto;
-    padding: 40px;
-    margin: 15px auto;
+    padding: 30px;
+    margin: 25px auto;
     background-color:rgba(132,195,207,0.35);
     }
     ::-webkit-scrollbar {
@@ -25,9 +18,24 @@
         border-radius: 10px;
         box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
     }
+    
+    .allBlogs {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Roboto', sans-serif;
+    }
+
     .bTitle {
         font-size: 30px;
     }
 
+@media only screen and (min-width: 600px) {
+    
+    .blog {
+        height: 300px;
+        width: 900px;
+        padding: 40px;
+
+    }
 }
 

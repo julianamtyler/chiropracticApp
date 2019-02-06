@@ -1,10 +1,7 @@
-
-
-@media only screen and (min-width: 600px) {
 body {
     background-color: rgb(172, 213, 230,0.5);
-    background-size: 2000px 800px;
-    /* font-family: 'Roboto', sans-serif;
-    font-family: 'Questrial', sans-serif; */
 }
+
+@media only screen and (min-width: 600px) {
+
 } 
