@@ -23,7 +23,7 @@
             overflow: auto;
             padding: 15px;
             margin: 20px;
-            border:dotted 3px   rgba(10,70,114,0.7);
+            border:dotted 3px rgba(10,70,114,0.7);
         }
         ::-webkit-scrollbar {
             width: 12px;

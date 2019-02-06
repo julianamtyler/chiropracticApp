@@ -46,8 +46,8 @@
         width: 400px;
         background-color: #E6F2F8;
         box-shadow: 10px 10px 5px gray;
-        
     }
+    
     input {
         padding: 10px;
         height: 20px;
@@ -57,8 +57,6 @@
 
     .nameInput,.emailInput,.commentInput {
         margin: 20 auto;
-    
-
     }
 
     .commentInput {
@@ -68,13 +66,9 @@
     }
 
     .formButton {
-        /* border: none; */
-        /* color: white; */
         font-size:20px;
         margin-left: 250px;
         margin-top: 10px;
-        /* align-items: right; */
-        /* background-color: #0A4672; */
         width:80px;
         height: 30px;
     }

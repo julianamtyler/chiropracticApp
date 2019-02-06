@@ -1,34 +1,49 @@
+.aboutUsPage {
+    font-family: 'Roboto', sans-serif;
+    justify-content: center; 
+}
+
+.doc,.about {
+    box-shadow:  6px 6px 5px rgba(0, 0, 0, 0.5);
+    line-height: 1.6;
+    width: 450px;
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    background-color:rgba(132,195,207,0.35);
+
+}
+.docPic{
+    margin-left: 30px;
+    padding: 10px;
+    width: 300px;
+}
+
+.title {
+    padding: 5px;
+    font-size: 30px;
+    color: #0A4672;
+}
+
+.details {
+    align-items: center;
+    padding: 15px;
+   
+}
 
 @media only screen and (min-width: 600px) {
     .aboutUsPage {
         display: flex;
-        justify-content: center; 
-        font-family: 'Roboto', sans-serif;
     }
     
     .doc,.about {
-        box-shadow:  6px 6px 5px rgba(0, 0, 0, 0.5);
-        line-height: 1.6;
         width: 700px;
         height: 100%;
         padding: 20px;
         margin: 20px;
-        background-color:rgba(132,195,207,0.35);
-    
     }
-    .details {
-        align-items: center;
-        padding: 15px;
-       
-    }
+ 
     .docPic{
         margin-left: 150px;
-        padding: 10px;
-        width: 300px;
-    }
-    .title {
-        padding: 5px;
-        font-size: 30px;
-        color: #0A4672;
     }
 }
