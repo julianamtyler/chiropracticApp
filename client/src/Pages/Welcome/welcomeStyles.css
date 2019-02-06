@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
+    height: 98vh;
     }
 
     .welcome {

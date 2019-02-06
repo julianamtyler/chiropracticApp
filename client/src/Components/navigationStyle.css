@@ -47,7 +47,7 @@
 
 .navButton:hover {
    background-color: rgb(10,70,114);
-   border: solid 1px white; 
+   border-bottom: solid 2px white; 
 }
 
 @media only screen and (min-width: 600px) {

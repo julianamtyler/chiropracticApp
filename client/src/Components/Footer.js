@@ -2,7 +2,7 @@ import React from 'react';
 import './footerStyle.css';
 const Footer = () => (
     <div className="footer">
-        Chiropractic Wellness by Juliana Tyler- © Copyright 2019 All Rights Reserved. 
+        Funtional Neurology Chiropractic created by Juliana Tyler- © Copyright 2019 All Rights Reserved to Dr. Tyler. 
     </div>
 
 )

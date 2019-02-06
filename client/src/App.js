@@ -7,7 +7,7 @@ import Services from './Pages/Services/Services';
 import Testimonials from './Pages/Testimonials/Testimonials';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import Navigation from './Components/Navigation';
-// import Footer from './Components/Footer';
+import Footer from './Components/Footer';
 
 
 const App = () => (
@@ -30,8 +30,9 @@ const App = () => (
       <Route path='/contactus' component={ContactUs} /> 
       <Route component={Welcome} />
       </Switch>
-    {/* <Footer/> */}
+      <Footer/> 
     </div>
+   
   </BrowserRouter>
 )
 
