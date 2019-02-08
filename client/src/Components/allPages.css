@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(172, 213, 230,0.5);
+    background-color: rgba(67, 106, 122, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+
 }
 
 @media only screen and (min-width: 600px) {

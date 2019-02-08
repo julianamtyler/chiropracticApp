@@ -1,14 +1,15 @@
 import React from 'react'; 
 import './welcomeStyles.css';
+import SlideShow from './SlideShow';
+import Intro from './Intro';
 
 
 
 const Welcome = () => (
 <div className="welcomePage">
-    {/* <img src ={'./assets/logo.'} alt='logo'/> */}
-    <div className="welcome"> Welcome to </div>
-    <div className="officeName">Functional Neurology <br/>Chiropractic</div>
-
+    {/* <img className="logo" src ={'./assets/chiro_logo.png'} alt='logo'/> */}
+<Intro/>  
+<SlideShow/>
 </div>
 )
 

@@ -1,14 +1,14 @@
 
-   .blog {
+   .blog { 
+    border-radius: 15px;
     box-shadow:  6px 6px 5px rgba(0, 0, 0, 0.5);
     line-height: 1.6;
     width: 450px;
-    height: 500px;
     display: block;
     overflow: auto;
     padding: 30px;
     margin: 25px auto;
-    background-color:rgba(132,195,207,0.35);
+    background-color:rgb(250, 250, 250);
     }
     ::-webkit-scrollbar {
         width: 12px;
@@ -31,8 +31,8 @@
 
 @media only screen and (min-width: 600px) {
     
-    .blog {
-        height: 300px;
+    .blog { 
+        min-height: 150px;
         width: 900px;
         padding: 40px;
 

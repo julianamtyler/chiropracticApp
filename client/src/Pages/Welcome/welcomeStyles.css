@@ -1,6 +1,6 @@
   .welcomePage {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */ 
     font-family: 'Roboto', sans-serif;
     height: 98vh;
     }
@@ -17,10 +17,16 @@
         text-shadow: 3px 4px rgba(10, 70, 114, 0.5);
 
     }
-
+.welcomes {
+    background-color:rgb(250, 250, 250, 0.7);
+    border-radius: 15px;
+    padding: 10px;
+    margin:40px;
+    width: 400px;
+    height: 98hv;
+}
 @media screen and (min-width: 600px) {
-  
-    
+   
     .welcome {
         /* height:100%; */
         margin-top: 40px;
