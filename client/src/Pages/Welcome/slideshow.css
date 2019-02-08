@@ -12,6 +12,7 @@
   }
   
   .slideShow img {
+    border-radius: 15px;
     position:absolute;
     left:0;
     -webkit-transition: opacity 1s ease-in-out;
@@ -60,8 +61,8 @@
     .img {
         position: relative;
         float: left;
-        width:  950px;
-        height: 625px;
+        width:  800px;
+        height: 550px;
         background-position: 50% 50%;
         background-repeat:   no-repeat;
         background-size:     cover;

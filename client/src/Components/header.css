@@ -22,6 +22,7 @@
     }
     .navButton {
         border: none;
+        border-radius: 15px;
         justify-items: center;
         background-color: black;
         color: #f2f2f2;
@@ -37,6 +38,7 @@
         text-align: left;
         height: 25px;
         padding:10px;
+        margin-left: 20px;
 
     }
 
