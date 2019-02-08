@@ -3,11 +3,11 @@
     }
 
     @keyframes pulse {
-        0% {
+        20% {
         background-color: rgba(10,70,114,0.7);
         }
-        90% {
-        background-color: rgba(27, 87, 99, 0.702);
+        80% {
+        background-color: rgba(208, 233, 236, 0.702);
         }
     } */
 
@@ -17,7 +17,7 @@
         justify-content: center;
     }
     .navBar {
-        background-color: rgba(10,70,114,0.7);
+        background-color: rgba(255, 255, 255, 0.7);
         height: 80px;
     }
     .navButton {
@@ -33,7 +33,6 @@
     }
 
     .contact {
-        color: white;
         font-size: 20px;
         text-align: left;
         height: 25px;
@@ -47,8 +46,8 @@
     }
 
     .navButton:hover {
-    background-color: rgb(10,70,114);
-    border-bottom: solid 2px white; 
+        background-color: rgb(33, 116, 141);
+        border-bottom: solid 4px rgb(151, 226, 10); 
     }
 
     .logo {
@@ -79,7 +78,6 @@
 
     .contact {
         display: block;
-        color: white;
         font-size: 20px;
         text-align: left;
         height: 200px;
