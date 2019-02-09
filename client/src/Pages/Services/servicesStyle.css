@@ -3,7 +3,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        height: 98vh;
+        height: 480px;
     }
 
     .intro {

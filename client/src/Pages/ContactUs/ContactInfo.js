@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ContactForm from './ContactForm';
 
 
 const Address = () => (
@@ -18,8 +18,9 @@ const PhoneNumber = () => (
 
 const ContactInfo = () => (
     <div className="info">
-        <Address/>
-        <PhoneNumber/>
+        <ContactForm/>
+        {/* <Address/> */}
+        {/* <PhoneNumber/> */}
 
     </div>
 )
