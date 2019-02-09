@@ -3,7 +3,8 @@ const Reviews = require('../models/Review');
 module.exports = function (app) {
 
   app.get('/api/reviews', function (req, res) {
-    Reviews.find({})
+    Reviews.find(req.params.name)
+    // Reviews.find({name: req.params.name , comment: req.params.comment })
       .then(function (data) {
         res.json(data);
       })

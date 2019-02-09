@@ -14,12 +14,12 @@ const App = () => (
 <BrowserRouter >
     <div>
       <Navigation>
-        <button className="navButton"><Link className="linkStyle" to={`/`}>Welcome</Link></button>
-        <button className="navButton"><Link className="linkStyle" to={`/aboutus`}>About Us</Link></button>
-        <button className="navButton"><Link className="linkStyle" to={`/blogs`}>Blogs</Link></button>
-        <button className="navButton"><Link className="linkStyle" to={`/services`}>Services</Link></button>
-        <button className="navButton"><Link className="linkStyle" to={`/testimonials`}>Testimonials</Link></button>
-        <button className="navButton"><Link className="linkStyle" to={`/contactus`}>Contact Us</Link></button>
+        <Link className="linkStyle" to={`/`}><button className="navButton">Welcome</button></Link>
+       <Link className="linkStyle" to={`/aboutus`}> <button className="navButton">About Us</button></Link>
+       <Link className="linkStyle" to={`/blogs`}> <button className="navButton">Blogs</button></Link>
+        <Link className="linkStyle" to={`/services`}><button className="navButton">Services</button></Link>
+        <Link className="linkStyle" to={`/testimonials`}><button className="navButton">Testimonials</button></Link>
+       <Link className="linkStyle" to={`/contactus`}> <button className="navButton">Contact Us</button></Link>
       </Navigation>
       <Switch>
       <Route exact path='/' component={Welcome} />

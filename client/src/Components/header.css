@@ -17,6 +17,9 @@
         justify-content: center;
     }
     .navBar {
+        /* position: fixed; */
+        /* overflow: auto; */
+        /* top: 0; */
         background-color: rgba(255, 255, 255, 0.7);
         height: 80px;
     }
@@ -42,7 +45,11 @@
 
     }
 
+    link {
+        display:block;
+    }
     .linkStyle {
+        /* display: block; */
         color: white;
         text-decoration: none;
     }
