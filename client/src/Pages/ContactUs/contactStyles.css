@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
+    height: 98vh;
 
 }
 
@@ -12,45 +13,28 @@
     border: 2px solid rgba(10,70,114,0.7);
     box-shadow: 10px 10px 5px gray;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 50px;
     padding: 10px;
-    height: 400px;
+    height: 420px;
     width: 350px;
     background-color: #E6F2F8;
-    box-shadow: 10px 10px 5px gray;
 }
 
 .formButton {
     font-size:20px;
     margin-left: 250px;
-    margin-top: 5px;
+    margin-top: 10px;
     width:80px;
     height: 30px;
 }
 
-.info {
-/* 
-    background-color:rgba(132,195,207,0.35);
-    box-shadow: 10px 10px 5px gray; */
-    padding: 20px;
-    margin: 30px auto;
-    font-size: 25px; 
-}
-
 @media only screen and (min-width: 600px) {
-    .info {
-        padding: 20px;
-        /* margin-top: 320px; */
-        margin-left: 100px;
-        font-size: 25px;
 
-        
-    }
     .pic {
-        margin-top: 100px;
+        margin-top: 30px;
         margin-left: 200px;
-        width: 550px;
+        width: 600px;
         height: auto;
         opacity: .9;
         border-radius: 8px;
