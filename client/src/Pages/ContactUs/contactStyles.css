@@ -1,43 +1,28 @@
 
-
   .contactPage {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
-    height: 98vh;
+    height: 350px;
+    }
 
-}
+    .pic {
+        width: 400px;
+    }
 
-.contactForm {
-    border-radius: 15px;
-    border: 2px solid rgba(10,70,114,0.7);
-    box-shadow: 10px 10px 5px gray;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    margin-left: 50px;
-    padding: 10px;
-    height: 420px;
-    width: 350px;
-    background-color: #E6F2F8;
-}
 
-.formButton {
-    font-size:20px;
-    margin-left: 250px;
-    margin-top: 10px;
-    width:80px;
-    height: 30px;
-}
 
 @media only screen and (min-width: 600px) {
 
+    .contactPage {
+        height: 580px;
+    }
+
     .pic {
-        margin-top: 30px;
-        margin-left: 200px;
-        width: 600px;
+        width: 850px;
         height: auto;
         opacity: .9;
-        border-radius: 8px;
+        border-radius: 15px;
     }
 
 }

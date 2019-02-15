@@ -7,7 +7,6 @@ import Intro from './Intro';
 
 const Welcome = () => (
 <div className="welcomePage">
-    {/* <img className="logo" src ={'./assets/chiro_logo.png'} alt='logo'/> */}
 <Intro/>  
 <SlideShow/>
 </div>

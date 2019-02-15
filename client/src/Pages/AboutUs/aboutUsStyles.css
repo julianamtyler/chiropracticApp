@@ -1,15 +1,16 @@
 .aboutUsPage {
     font-family: 'Roboto', sans-serif;
     justify-content: center; 
+    height: 80vh;
 }
 
 .doc,.about {
     border-radius: 15px;
     box-shadow:  6px 6px 5px rgba(0, 0, 0, 0.5);
-    line-height: 1.6;
+    line-height: 1.5;
     width: 300px;
     height: 100%;
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
     background-color:rgb(250, 250, 250);
 
@@ -39,12 +40,13 @@
     
     .doc,.about {
         width: 700px;
-        height: 100%;
-        padding: 20px;
+        height: 98%;
+        padding: 10px;
         margin: 20px;
     }
  
     .docPic{
         margin-left: 150px;
+        width: 250px;
     }
 }
