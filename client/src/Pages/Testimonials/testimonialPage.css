@@ -3,7 +3,7 @@
 
         }
         .allReviewsBox {
-            border-radius: 15px;
+            /* border-radius: 15px; */
             background-color:rgb(250, 250, 250);           
             display: flex;
             flex-wrap: wrap;
@@ -45,7 +45,7 @@
 @media only screen and (min-width: 600px) {
         .testimonialPage {
             display: flex;
-            margin: 50px auto;
+            margin: 0px auto;
             justify-content: center;
         }
         

@@ -1,6 +1,13 @@
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+} */
+
 body {
     background-color: rgba(7, 128, 145, 0.5);
     height: 80vh;
+    font-family:'Roboto', sans-serif;
 }
 
 @media only screen and (min-width: 600px) {

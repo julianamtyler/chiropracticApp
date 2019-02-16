@@ -1,28 +1,29 @@
 
   .contactPage {
-    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
-    height: 350px;
+    height: 550px;
     }
 
     .pic {
-        width: 400px;
+        width: 375px;
     }
 
-
+    .info {
+        line-height: 1.6;
+        text-align: center;
+        width: 300px;
+    }
 
 @media only screen and (min-width: 600px) {
-
-    .contactPage {
-        height: 580px;
-    }
-
     .pic {
-        width: 850px;
+        width:850px;
         height: auto;
         opacity: .9;
-        border-radius: 15px;
     }
 
+    .info {
+        margin-left: 100px;
+        margin-top: 200px;
+    }
 }

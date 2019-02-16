@@ -7,8 +7,8 @@ import Intro from './Intro';
 
 const Welcome = () => (
 <div className="welcomePage">
-<Intro/>  
-<SlideShow/>
+    <Intro/>  
+    <SlideShow/>
 </div>
 )
 
