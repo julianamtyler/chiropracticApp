@@ -11,7 +11,7 @@ const Address = () => (
 )
 const PhoneNumber = () => (
     <div className="phoneNum"> 
-      Phone: (678) 789 - 0070
+      Ph: (678) 789 - 0070
     </div>
 )
 

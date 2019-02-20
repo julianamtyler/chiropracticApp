@@ -1,7 +1,6 @@
   .welcomePage {
     display: flex;
     font-family: 'Roboto', sans-serif;
-    /* margin-bottom: 10px; */
     height: 80vh;
     }
     .welcome {
@@ -14,10 +13,7 @@
         font-size: 60px;
         color: black;
         width: 200px;
-        text-shadow: 3px 3px black;
     }
-    
-
 
 @media screen and (min-width: 600px) {
     .welcomePage {

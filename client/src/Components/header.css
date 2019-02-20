@@ -1,7 +1,8 @@
 
     .menu {
-        padding-top: 15px;
-        height: 40px;
+        padding-top: 5px;
+        height: 30px;
+        text-align: center;
     }
     .navBar {
         /* position: fixed; */

@@ -11,28 +11,28 @@ import Navigation from './Components/Navigation';
 
 
 const App = () => (
-<BrowserRouter >
+  <BrowserRouter >
     <div>
       <Navigation>
         <Link className="linkStyle" to={`/`}><button className="navButton">Welcome</button></Link>
-       <Link className="linkStyle" to={`/aboutus`}> <button className="navButton">About Us</button></Link>
-       <Link className="linkStyle" to={`/blogs`}> <button className="navButton">Blogs</button></Link>
+        <Link className="linkStyle" to={`/aboutus`}> <button className="navButton">About Us</button></Link>
+        <Link className="linkStyle" to={`/blogs`}> <button className="navButton">Blogs</button></Link>
         <Link className="linkStyle" to={`/services`}><button className="navButton">Services</button></Link>
         <Link className="linkStyle" to={`/testimonials`}><button className="navButton">Testimonials</button></Link>
-       <Link className="linkStyle" to={`/contactus`}> <button className="navButton">Contact Us</button></Link>
+        <Link className="linkStyle" to={`/contactus`}> <button className="navButton">Contact Us</button></Link>
       </Navigation>
       <Switch>
-      <Route exact path='/' component={Welcome} />
-      <Route path='/aboutus'  component={AboutUs} />
-      <Route path='/blogs' component={Blogs} />
-      <Route path='/services' component={Services} />
-      <Route path='/testimonials' component={Testimonials} />
-      <Route path='/contactus' component={ContactUs} /> 
-      <Route component={Welcome} />
+        <Route exact path='/' component={Welcome} />
+        <Route path='/aboutus' component={AboutUs} />
+        <Route path='/blogs' component={Blogs} />
+        <Route path='/services' component={Services} />
+        <Route path='/testimonials' component={Testimonials} />
+        <Route path='/contactus' component={ContactUs} />
+        <Route component={Welcome} />
       </Switch>
       {/* <Footer/>  */}
     </div>
-   
+
   </BrowserRouter>
 )
 
