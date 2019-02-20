@@ -14,7 +14,7 @@ class Testimonials extends React.Component {
             comment: ''
         }
     }
-   
+
     handleChange = (event) => {
         const inputField = event.target.name;
         console.log(inputField);
@@ -27,15 +27,14 @@ class Testimonials extends React.Component {
         event.preventDefault();
         console.log('clicked')
         axios.post('/api/reviews', this.state.newReview
-    )
-    .then(results => {
-        this.setState({reviews: [...this.state.reviews, results.data]
+        )
+            .then(results => {
+                this.setState({
+                    reviews: [...this.state.reviews, results.data]
 
-        })
-    })
-    .then ()
-}
-
+                })
+            })
+    }
 
     allReviews = () => {
         axios.get('/api/reviews')
@@ -43,11 +42,11 @@ class Testimonials extends React.Component {
                 this.setState({ reviews: results.data })
             })
     }
-
+      
     componentDidMount() {
         this.allReviews();
     }
-    
+
 
     render() {
         return (
@@ -57,12 +56,12 @@ class Testimonials extends React.Component {
                     emailVal={this.state.newReview.email}
                     commentVal={this.state.newReview.comment}
                     submitReview={this.submitReview}
-                    handleChange={this.handleChange} 
-                    />
+                    handleChange={this.handleChange}
+                />
                 <DisplayAll
                     allReviews={this.state.allReviews}
                     reviews={this.state.reviews}
-                    onClick = {this.onClickReview} />
+                    onClick={this.onClickReview} />
             </div>
         );
     }
